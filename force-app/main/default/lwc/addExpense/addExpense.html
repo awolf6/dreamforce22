@@ -4,4 +4,17 @@
 
 <!-- Add Expense -->
 <template>
+    <lightning-card title="Add Expense" icon-name="standard:expense">
+        <div class="slds-p-around_medium">
+
+            <div class="info-panel slds-p-around_medium slds-m-bottom_small">
+                Please review company expense policies before submitting!
+            </div>
+
+            <c-dynamic-form object-name="Expense"
+                            field-set-name="AddExpense"
+                            success-toast-labels={successLabels}>
+            </c-dynamic-form>
+        </div>
+    </lightning-card>
 </template>

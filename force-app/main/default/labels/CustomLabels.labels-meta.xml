@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ExpenseSaveSuccessMessage</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ExpenseSaveSuccessMessage</shortDescription>
+        <value>Expense saved successfully.</value>
+    </labels>
+    <labels>
+        <fullName>ExpenseSaveSuccessTitle</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ExpenseSaveSuccessTitle</shortDescription>
+        <value>Success!</value>
+    </labels>
+</CustomLabels>

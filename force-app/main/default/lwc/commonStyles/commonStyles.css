@@ -1,0 +1,12 @@
+/**
+ * Created by attilawolf on 04/09/2022.
+ */
+.info-panel {
+    border: 1px #DDDBDA solid;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.10);
+    overflow: hidden;
+    background: #eef4ff;
+    color: #032d60;
+    font-weight: bold;
+}

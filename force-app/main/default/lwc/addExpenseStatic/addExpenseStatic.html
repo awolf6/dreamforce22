@@ -1,0 +1,32 @@
+<!--
+ - Created by attilawolf on 04/09/2022.
+ -->
+
+<!-- Add Expense Static -->
+<template>
+
+    <lightning-card title="Add Expense" icon-name="standard:expense">
+        <div class="slds-p-around_medium">
+
+            <div class="info-panel slds-p-around_medium slds-m-bottom_small">
+                Please review company expense policies before submitting!
+            </div>
+
+            <div class="slds-is-relative">
+
+                <lightning-record-edit-form record-id={recordId} object-api-name="Expense" onsuccess={handleSuccess}>
+                    <lightning-messages></lightning-messages>
+
+                    <lightning-input-field field-name="AccountId"></lightning-input-field>
+                    <lightning-input-field field-name="Title"></lightning-input-field>
+                    <lightning-input-field field-name="ExpenseType"></lightning-input-field>
+                    <lightning-input-field field-name="TransactionDate"></lightning-input-field>
+                    <lightning-input-field field-name="Amount"></lightning-input-field>
+
+                    <lightning-button class="slds-m-top_medium slds-m-left_xx-small" type="submit" label="Save" variant="brand"></lightning-button>
+                </lightning-record-edit-form>
+            </div>
+        </div>
+    </lightning-card>
+
+</template>
