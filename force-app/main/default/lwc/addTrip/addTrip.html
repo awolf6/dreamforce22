@@ -2,17 +2,17 @@
  - Created by attilawolf on 04/09/2022.
  -->
 
-<!-- Add Expense -->
+<!-- Add Trip -->
 <template>
-    <lightning-card title="Add Expense" icon-name="standard:expense">
+    <lightning-card title="Add Trip" icon-name="standard:opportunity">
         <div class="slds-p-around_medium">
 
             <div class="info-panel slds-p-around_medium slds-m-bottom_small">
-                Please review company expense policies before submitting!
+                {labels.TripPolicyLabel}
             </div>
 
-            <c-dynamic-form object-name="Expense"
-                            field-set-name="AddExpense"
+            <c-dynamic-form object-name="Trip__c"
+                            field-set-name="AddTrip"
                             success-toast-labels={successLabels}>
             </c-dynamic-form>
         </div>

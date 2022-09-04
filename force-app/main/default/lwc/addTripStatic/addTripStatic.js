@@ -2,10 +2,10 @@
  * Created by attilawolf on 04/09/2022.
  */
 
-import {LightningElement, api} from 'lwc';
+import {api, LightningElement} from 'lwc';
 import {ShowToastEvent} from "lightning/platformShowToastEvent";
 
-export default class AddExpenseStatic extends LightningElement {
+export default class AddTripStatic extends LightningElement {
 
     @api recordId
 

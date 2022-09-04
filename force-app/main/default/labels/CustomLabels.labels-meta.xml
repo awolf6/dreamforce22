@@ -14,4 +14,25 @@
         <shortDescription>ExpenseSaveSuccessTitle</shortDescription>
         <value>Success!</value>
     </labels>
+    <labels>
+        <fullName>TripPolicyLabel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TripPolicyLabel</shortDescription>
+        <value>Please review company travel policies before submitting!</value>
+    </labels>
+    <labels>
+        <fullName>TripSaveSuccessMessage</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TripSaveSuccessMessage</shortDescription>
+        <value>Trip saved successfully!</value>
+    </labels>
+    <labels>
+        <fullName>TripSaveSuccessTitle</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TripSaveSuccessTitle</shortDescription>
+        <value>Success!</value>
+    </labels>
 </CustomLabels>
