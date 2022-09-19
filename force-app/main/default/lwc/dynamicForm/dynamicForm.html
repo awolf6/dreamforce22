@@ -7,14 +7,16 @@
     <div class="slds-is-relative">
         <lightning-spinner if:true={showSpinner} variant="brand"></lightning-spinner>
 
-        <lightning-record-edit-form if:true={fields} record-id={recordId} object-api-name={objectName} onsuccess={handleSuccess}>
+        <lightning-record-edit-form if:true={fields} object-api-name={objectName} onsuccess={handleSuccess}>
             <lightning-messages></lightning-messages>
 
             <template for:each={fields} for:item="field">
                 <lightning-input-field field-name={field} key={field}></lightning-input-field>
             </template>
 
-            <lightning-button class="slds-m-top_medium slds-m-left_xx-small" type="submit" label="Save" variant="brand"></lightning-button>
+            <lightning-button class="slds-m-top_medium slds-m-left_xx-small"
+                              type="submit" label="Save" variant="brand">
+            </lightning-button>
         </lightning-record-edit-form>
     </div>
 </template>

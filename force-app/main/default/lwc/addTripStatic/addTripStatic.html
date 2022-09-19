@@ -4,12 +4,11 @@
 
 <!-- Add Trip Static -->
 <template>
-
     <lightning-card title="Add Trip" icon-name="standard:opportunity">
         <div class="slds-p-around_medium">
 
-            <div class="info-panel slds-p-around_medium slds-m-bottom_small">
-                Please review company expense policies before submitting!
+            <div style="border: 1px #DDDBDA solid;border-radius: 4px;box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.10);overflow: hidden;background: #eef4ff;color: #032d60;font-weight: bold;" class="slds-p-around_medium slds-m-bottom_small">
+                You are only allowed to book in Business Class!
             </div>
 
             <div class="slds-is-relative">
@@ -23,11 +22,14 @@
                     <lightning-input-field field-name="EndDate__c"></lightning-input-field>
                     <lightning-input-field field-name="Description__c"></lightning-input-field>
 
-                    <lightning-button class="slds-m-top_medium slds-m-left_xx-small" type="submit" label="Save" variant="brand"></lightning-button>
+                    <lightning-button class="slds-m-top_medium slds-m-left_xx-small"
+                                      type="submit"
+                                      label="Save"
+                                      variant="brand">
+                    </lightning-button>
                 </lightning-record-edit-form>
 
             </div>
         </div>
     </lightning-card>
-
 </template>

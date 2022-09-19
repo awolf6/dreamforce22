@@ -8,7 +8,6 @@ import {showErrorToast, showToast} from 'c/utils';
 
 export default class DynamicForm extends LightningElement {
 
-    @api recordId;
     @api objectName;
     @api fieldSetName;
 
